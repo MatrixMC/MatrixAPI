@@ -32,11 +32,10 @@ public class Message implements CommandExecutor {
                 } else {
                     StringBuilder str = new StringBuilder();
                     for (int i = 0; i < args.length; i++) {
-                        str.append(args[i] + " ");
-                        String Message = str.toString();
+                        str.append(args[i]).append(" ");
                     }
-                    
-                    target.sendMessage(ChatColor.GREEN + "" + ChatColor.BOLD + "PRIVATE ▐ " + ChatColor.RESET + player.getDisplayName() + " ➟ " + target.getDisplayName() + ChatColor.DARK_GRAY + " » " + ChatColor.WHITE + Message);
+                    String message = str.toString();
+                    target.sendMessage("§a§lPRIVATE \u2759 §r" + player.getDisplayName() + " §2\u27F6§r " + target.getDisplayName() + " §8\u00bb§f " + message);
 
                 }
             }
