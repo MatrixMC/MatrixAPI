@@ -7,7 +7,6 @@
 package com.gamemster2468.tokens;
 
 import com.gamemster2468.matrixapi.MatrixAPI;
-import com.gamemster2468.matrixapi.Messages;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -22,10 +21,8 @@ public class TokenAPI {
     
     public synchronized static void openConnection(){
         try{
-            String username = "root";
-            String password = "G6J4m8Y6dg6U";
-            MatrixAPI.connection = DriverManager.getConnection("jdbc:mysql://sql.matrixmc.eu:3306/matrixtokens", "root", "G6J4m8Y6dg6U");
-        }catch(Exception e){
+            MatrixAPI.connection = DriverManager.getConnection("jdbc:mysql://sql.matrixmc.eu:3306/matrixtokens", "root", "matrixmcpass01");
+        }catch(SQLException e){
             e.printStackTrace();
         }
     }

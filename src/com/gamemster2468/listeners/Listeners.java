@@ -26,7 +26,7 @@ public class Listeners implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
         event.setJoinMessage(null);
-        event.getPlayer().sendMessage(Messages.TAG + ChatColor.DARK_AQUA + "" + ChatColor.BOLD + "REMINDER : " + ChatColor.RESET + "" + ChatColor.AQUA + "The Matrix v2 is in beta! Report bugs on our forums! Also make sure to NEVER click links from people you don't trust and or know! Be safe!");
+        event.getPlayer().sendMessage(Messages.TAG + ChatColor.DARK_AQUA + "" + ChatColor.BOLD + "REMINDER: " + ChatColor.RESET + "" + ChatColor.AQUA + "The Matrix v2 is in beta! Report bugs on our forums! Also make sure to NEVER click links from people you don't trust and or know! Be safe!");
     }
 
     @EventHandler

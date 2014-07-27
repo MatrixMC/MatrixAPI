@@ -1,2 +1,31 @@
-## YAML Template.
----
+name: MatrixAPI
+version: 0.0.1 BETA
+authors: [gamemster2468, OnesRodriguez]
+main: com.gamemster2468.matrixapi.MatrixAPI
+commands:
+    announce:
+       aliases: [an]
+    fly:
+       description: Fly.
+    help:
+       description: Help.
+    helpop:
+       description: Help from OPs.
+    hub:
+       description: Hub.
+    message:
+       aliases: [msg, w, tell, whisper, m]
+    reload:
+       aliases: [rl]
+    restart:
+       aliases: [hubrestart]
+    say:
+       aliases: [gsay, globalsay, shout, scream]
+    stats:
+       aliases: [an]
+    givetokens:
+       aliases: [gt, settokens]
+
+
+
+

@@ -1,5 +1,7 @@
 package com.gamemster2468.listeners;
 
-public class Launchpad {
+import org.bukkit.event.Listener;
+
+public class Launchpad implements Listener{
 
 }
