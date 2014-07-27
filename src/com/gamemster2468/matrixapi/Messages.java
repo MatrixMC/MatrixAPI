@@ -18,6 +18,6 @@ public class Messages {
     
     public static String STAFF = ChatColor.DARK_RED + "" + ChatColor.BOLD + "STAFF \u275a" + ChatColor.RESET + " ";
     
-    public static String noPerms = TAG + ChatColor.RED + "You do not have.. wait what. #noPerms!";
+    public static String noPerms = TAG + ChatColor.RED + "#NoPerms";
     
 }
